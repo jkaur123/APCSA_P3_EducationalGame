@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Plataforma
+comment0.text=\r\nRepresenta\ el\ espacio\ donde\ podr\u00E1\ saltar\ el\ personaje\r\n\ \r\n\ @author\ Esdras\ Salgado\ D\u00EDaz\ \r\n\ @version\ 30/01/2017\r\n
+comment1.params=
+comment1.target=Plataforma()
+comment1.text=\r\nSe\ asigna\ tama\u00F1o\ a\ la\ plataforma.\r\n
+numComments=2

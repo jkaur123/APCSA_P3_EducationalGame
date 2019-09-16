@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Nubes
+comment0.text=\r\n\ Nubes\ Se\ simula\ el\ movimento\ de\ las\ nubes.\r\n\ \r\n\ @author\ Esdras\ Salgado\ D\u00EDaz\ \r\n\ @version\ 30/01/2017\r\n
+comment1.params=
+comment1.target=Nubes()
+comment1.text=\r\nSe\ asigna\ un\ tama\u00F1o\ a\ las\ nubes.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\nSe\ simula\ movimiento\ de\ las\ nubes.\ En\ caso\ de\ que\ las\ nubes\ toquen\ borde\ del\ escenario\ se\ remover\u00E1n.\r\n
+numComments=3

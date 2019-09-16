@@ -1,0 +1,29 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Dispara here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Dispara extends Enemigo
+{
+    /**
+     * Act - do whatever the Dispara wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    
+    protected int disparo;
+    
+    public void act() 
+    {
+        super.act();
+        disparar();
+    }    
+    
+    private void disparar(){
+        if(Greenfoot.getRandomNumber(1000)<disparo){
+            getWorld().addObject(new Bomba(),getX(),getY());
+        }
+    }
+}

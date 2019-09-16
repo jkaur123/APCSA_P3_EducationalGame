@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Dinosaurio
+comment0.text=\r\n\ Dinosaurio\ Se\ simula\ el\ movimiento\ de\ los\ objetos.\ Adem\u00E1s\ de\ simular\ movimiento\ se\ verif\u00EDca\ el\ contacto\ con\ el\ personaje\ principal<br>\r\n\ dentro\ del\ escenario,\ si\ los\ dos\ objetos\ se\ interceptan\ se\ le\ disminuye\ una\ vida\ al\ personaje\ principal.\r\n\ \r\n\ @author\ Manuel\ Alejandro\ Valdes-Marrero\ \ \r\n\ @author\ Esdras\ Salgado\ D\u00EDaz\ \r\n\ @version\ 30/01/2017\r\n
+comment1.params=
+comment1.target=Dinosaurio()
+comment1.text=\r\n\ Dinosaurio\ Se\ inicializa\ objeto\ Dinosaurio\ (propiedades).\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Movimiento\ del\ personaje.\ El\ personaje\ se\ desplaza\ de\ izquierda\ a\ derecha\ del\ escenario,\ si\ detecta\ borde\ se\ elimina<br>\r\n\ si\ no\ verifica\ el\ contacto\ con\ el\ personaje\ principal\ como\ la\ cantidas\ de\ vidad\ que\ posee.\r\n
+comment3.params=
+comment3.target=void\ sigoVivo()
+comment3.text=\r\nSe\ verifica\ la\ vida\ de\ lo\ enemigo.\ Si\ la\ vida\ del\ enemigo\ es\ igual\ o\ menor\ a\ cero\ se\ remueve\ del\ escenario.\r\n
+comment4.params=
+comment4.target=void\ contacto()
+comment4.text=\r\n\ Contacto\ con\ el\ personaje\ principal.\ En\ dado\ caso\ de\ que\ el\ enemigo\ tuviera\ contacto\ con\ el\ personaje\ principal\r\n\ se\ le\ asiga\ la\ vida\ de\ 1.\ (Esto\ para\ enseguida\ ser\ removido).\r\n
+numComments=5

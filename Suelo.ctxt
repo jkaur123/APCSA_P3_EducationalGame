@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Suelo
+comment0.text=\r\n\ Se\ visulizar\u00E1\ el\ movimiento\ del\ suelo\ hacia\ la\ izquierda\r\n\ \r\n\ @author\ Esdras\ Salgado\ D\u00EDaz\ \r\n\ @version\ 30/01/2017\r\n
+comment1.params=
+comment1.target=Suelo()
+comment1.text=\r\n\ Se\ asigna\ tama\u00F1o\ a\ el\ bloque\ de\ suelo.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\nSe\ simula\ movimiento\ del\ suelo.\ En\ caso\ de\ que\ el\ bloque\ de\ suelo\ toquen\ borde\ del\ escenario\ se\ remover\u00E1n.\r\n
+numComments=3

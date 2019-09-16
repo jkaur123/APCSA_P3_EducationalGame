@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Enemigo
+comment0.text=\r\n\ Enemigo\ Controla\ puntos\ y\ vida\ de\ los\ personajes\ malos.\r\n\ \r\n\ @author\ Manuel\ Alejandro\ Valdes-Marrero\ \r\n\ @author\ Esdras\ Salgado\ D\u00EDaz\r\n\ @version\ 30/01/2017\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Verif\u00EDca\ constantemente\ la\ vida\ de\ los\ enemigos\ llamando\ a\ otro\ m\u00E9todo.\r\n
+comment2.params=
+comment2.target=void\ sigoVivo()
+comment2.text=\r\n\ Verif\u00EDca\ vida\ de\ los\ enemigos.\ Si\ las\ vida\ de\ los\ enemigos\ es\ menor\ o\ igual\ a\ cero,\ remueve\ a\ los\ objetos\ del\ escenario.\r\n
+comment3.params=
+comment3.target=void\ quitarVida()
+comment3.text=\r\n\ Quita\ vida\ a\ los\ enemigos.\ Si\ las\ vida\ de\ los\ enemigos\ es\ mayor\ a\ cero,\ resta\ una\ vida\ al\ enemigo.\r\n
+comment4.params=
+comment4.target=int\ getPuntos()
+comment4.text=\r\n\ gtePuntos\ \r\n\ @return\ puntos\ que\ da\ el\ enemigo.\ \r\n
+numComments=5
