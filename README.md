@@ -12,6 +12,7 @@ Levels:
 2. Multiplication & division
 3. Fractions & basic geometry
 
-Target Audience: Elementary school students in grades 1-5 focusing on math
+Target Audience: Elementary school students in grades 1-5 focusing on math.
 
-Based off of the game https://www.greenfoot.org/scenarios/24344, with an educational twist.  
+Based off of the game greenfoot.org/scenarios/6645, with an educational twist.
+Based some features off the game greenfoot.org/scenarios/18993.
