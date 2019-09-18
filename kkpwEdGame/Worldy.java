@@ -14,14 +14,180 @@ public class Worldy extends World
         super(1000, 700, 1);
 
         prepare();
+        
+        question1();
+        Greenfoot.delay(10);
+        //question2();
+        //Greenfoot.delay(10);
+       // question3();
+        //Greenfoot.delay(10);
+       // question4();
+       // Greenfoot.delay(10);
+       // question5();
+        //Greenfoot.delay(10);
+       // question6();
+       // Greenfoot.delay(10);
+       // question7();
+       // Greenfoot.delay(10);
     }
 
+    Label label1 = new Label("Question 1\n", 75);
+    Label label2 = new Label("What is 2+2?\n", 50);
+    
+    Label label3 = new Label ("Question 2\n", 75);
+    Label label4 = new Label ("What is 8-3?\n", 50);
+    
+    Label label5 = new Label ("Question 3\n", 75);
+    Label label6 = new Label ("What is 11+12?\n", 50);
+    
+    Label label7 = new Label ("Question 4\n", 75);
+    Label label8 = new Label ("What is 53-37?\n", 50);
+    
+    Label label9 = new Label ("Question 5\n", 75);
+    Label label10 = new Label ("What is 201-195?\n", 50);
+    
+    Label label11 = new Label ("Question 6\n", 75);
+    Label label12 = new Label ("What is 15+27?\n", 50);
+    
+    Label label13 = new Label ("Question 7\n", 75);
+    Label label14 = new Label ("What is 55+44?\n", 50);
+    
+    
+    
+    Label question1answera = new Label ("4", 25);
+    Label question1answerb = new Label ("0", 25);
+    Label question1answerc = new Label ("3", 25);
+    Label question1answerd = new Label ("5", 25);
+    
+    Label question2answera = new Label ("5", 25);
+    Label question2answerb = new Label ("6", 25);
+    Label question2answerc = new Label ("4", 25);
+    Label question2answerd = new Label ("11", 25);
+    
+    Label question3answera = new Label ("23", 25);
+    Label question3answerb = new Label ("22", 25);
+    Label question3answerc = new Label ("1", 25);
+    Label question3answerd = new Label ("5", 25);
+    
+    Label question4answera = new Label ("16", 25);
+    Label question4answerb = new Label ("15", 25);
+    Label question4answerc = new Label ("14", 25);
+    Label question4answerd = new Label ("90", 25);
+    
+    
+    Label question5answera = new Label ("6", 25);
+    Label question5answerb = new Label ("5", 25);
+    Label question5answerc = new Label ("7", 25);
+    Label question5answerd = new Label ("10", 25);
+    
+    Label question6answera = new Label ("42", 25);
+    Label question6answerb = new Label ("12", 25);
+    Label question6answerc = new Label ("2", 25);
+    Label question6answerd = new Label ("44", 25);
+    
+    Label question7answera = new Label ("99", 25);
+    Label question7answerb = new Label ("11", 25);
+    Label question7answerc = new Label ("10", 25);
+    Label question7answerd = new Label ("98", 25);
+    
+    
+    private void question1()
+    {
+        label1.setFillColor(Color.RED);
+        label1.setLineColor(Color.BLACK);
+        label2.setFillColor(Color.BLACK);
+        label2.setLineColor(Color.WHITE);
+        addObject(label1, 300, 100);
+        addObject(label2, 300, 175);
+    }
+    
+    private void question2()
+    {
+        label3.setFillColor(Color.RED);
+        label3.setLineColor(Color.BLACK);
+        label4.setFillColor(Color.BLACK);
+        label4.setLineColor(Color.WHITE);
+        
+        removeObject(label1);
+        removeObject(label2);
+        
+        addObject(label3, 300, 100);
+        addObject(label4, 300, 175);
+    }
+    
+    private void question3() {
+        label5.setFillColor(Color.RED);
+        label5.setLineColor(Color.BLACK);
+        label6.setFillColor(Color.BLACK);
+        label6.setLineColor(Color.WHITE);
+        
+        removeObject(label3);
+        removeObject(label4);
+        
+        addObject(label5, 300, 100);
+        addObject(label6, 300, 175);
+    }
+    
+    private void question4() {
+        label7.setFillColor(Color.RED);
+        label7.setLineColor(Color.BLACK);
+        label8.setFillColor(Color.BLACK);
+        label8.setLineColor(Color.WHITE);
+        
+        removeObject(label5);
+        removeObject(label6);
+        
+        addObject(label7, 300, 100);
+        addObject(label8, 300, 175);
+    }
+    
+    private void question5() {
+        label9.setFillColor(Color.RED);
+        label9.setLineColor(Color.BLACK);
+        label10.setFillColor(Color.BLACK);
+        label10.setLineColor(Color.WHITE);
+        
+        removeObject(label7);
+        removeObject(label8);
+        
+        addObject(label9, 300, 100);
+        addObject(label10, 300, 175);
+    }
+    
+    private void question6() {
+        label11.setFillColor(Color.RED);
+        label11.setLineColor(Color.BLACK);
+        label12.setFillColor(Color.BLACK);
+        label12.setLineColor(Color.WHITE);
+        
+        removeObject(label9);
+        removeObject(label10);
+        
+        addObject(label11, 300, 100);
+        addObject(label12, 300, 175);
+    }
+    
+    private void question7() {
+        label13.setFillColor(Color.RED);
+        label13.setLineColor(Color.BLACK);
+        label14.setFillColor(Color.BLACK);
+        label14.setLineColor(Color.WHITE);
+        
+        removeObject(label11);
+        removeObject(label12);
+        
+        addObject(label13, 300, 100);
+        addObject(label14, 300, 175);
+    }
+
+    
     /**
      * Prepare the world for the start of the program. That is: create the initial
      * objects and add them to the world.
      */
     private void prepare()
     {
+        
         Wall wall = new Wall();
         addObject(wall, 32, 382);
         Wall wall2 = new Wall();
