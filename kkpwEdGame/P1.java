@@ -14,6 +14,8 @@ public class P1 extends Player
      */
     public void act() 
     {
+        
+        
         Action("jump/fall", " ", "up", " ", 10, 0);
         Action("moveL", " ", "left", "shift", 10, 3);
         Action("moveR", " ", "right", "shift", 10, 3);
