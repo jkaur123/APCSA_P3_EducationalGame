@@ -23,6 +23,7 @@ public class second_level extends World
     private void prepare()
     {
         //getWorld().removeObject(wrong_ant);
+<<<<<<< HEAD
         
         
         Label q1 = new Label ("What is 20 x 0?", 50);
@@ -67,6 +68,18 @@ public class second_level extends World
         
         
         
+=======
+        Wrong_ant wrong_ant = new Wrong_ant();
+        addObject(wrong_ant,500,625);
+        Ant ant = new Ant();
+        addObject(ant,350,325);
+        Wrong_ant wrong_ant1 = new Wrong_ant();
+        addObject(wrong_ant1,650,625);
+        Wrong_ant wrong_ant2 = new Wrong_ant();
+        addObject(wrong_ant2,700,425);
+        Ground ground100 = new Ground();
+        addObject(ground100, 700, 445);
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
         //wrong_ant.setLocation(712,374);
         //Wrong_ant wrong_ant2 = new Wrong_ant();
         //addObject(wrong_ant2,568,380);

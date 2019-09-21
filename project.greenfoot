@@ -5,7 +5,10 @@ class.Box.image=rivets.jpg
 class.Box.superclass=Player
 class.Ground.image=brick.png
 class.Ground.superclass=greenfoot.Actor
+<<<<<<< HEAD
 class.Label.superclass=greenfoot.Actor
+=======
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 class.P1.image=man01.png
 class.P1.superclass=Player
 class.P2.image=man01.png
@@ -21,6 +24,7 @@ dependency1.from=second_level
 dependency1.to=Wall
 dependency1.type=UsesDependency
 dependency10.from=Worldy
+<<<<<<< HEAD
 dependency10.to=Wall
 dependency10.type=UsesDependency
 dependency11.from=Worldy
@@ -49,10 +53,41 @@ dependency18.to=Label
 dependency18.type=UsesDependency
 dependency19.from=P2
 dependency19.to=second_level
+=======
+dependency10.to=Box
+dependency10.type=UsesDependency
+dependency11.from=Worldy
+dependency11.to=Wrong_ant
+dependency11.type=UsesDependency
+dependency12.from=Worldy
+dependency12.to=Ant
+dependency12.type=UsesDependency
+dependency13.from=P1
+dependency13.to=second_level
+dependency13.type=UsesDependency
+dependency14.from=P1
+dependency14.to=Worldy
+dependency14.type=UsesDependency
+dependency15.from=P1
+dependency15.to=Wrong_ant
+dependency15.type=UsesDependency
+dependency16.from=Player
+dependency16.to=Ground
+dependency16.type=UsesDependency
+dependency17.from=Player
+dependency17.to=Wall
+dependency17.type=UsesDependency
+dependency18.from=Player
+dependency18.to=Worldy
+dependency18.type=UsesDependency
+dependency19.from=Box
+dependency19.to=Ground
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 dependency19.type=UsesDependency
 dependency2.from=second_level
 dependency2.to=P1
 dependency2.type=UsesDependency
+<<<<<<< HEAD
 dependency20.from=P2
 dependency20.to=Wrong_ant
 dependency20.type=UsesDependency
@@ -74,6 +109,14 @@ dependency25.type=UsesDependency
 dependency26.from=Box
 dependency26.to=Wall
 dependency26.type=UsesDependency
+=======
+dependency20.from=Box
+dependency20.to=Wall
+dependency20.type=UsesDependency
+dependency21.from=Box
+dependency21.to=Wall
+dependency21.type=UsesDependency
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 dependency3.from=second_level
 dependency3.to=Ground
 dependency3.type=UsesDependency
@@ -86,6 +129,7 @@ dependency5.type=UsesDependency
 dependency6.from=second_level
 dependency6.to=P2
 dependency6.type=UsesDependency
+<<<<<<< HEAD
 dependency7.from=second_level
 dependency7.to=Label
 dependency7.type=UsesDependency
@@ -105,6 +149,27 @@ mainWindow.x=1357
 mainWindow.y=0
 package.numDependencies=26
 package.numTargets=11
+=======
+dependency7.from=Worldy
+dependency7.to=P1
+dependency7.type=UsesDependency
+dependency8.from=Worldy
+dependency8.to=Ground
+dependency8.type=UsesDependency
+dependency9.from=Worldy
+dependency9.to=Wall
+dependency9.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=572
+editor.fx.0.y=10
+mainWindow.height=744
+mainWindow.width=1382
+mainWindow.x=-8
+mainWindow.y=-8
+package.numDependencies=20
+package.numTargets=10
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
@@ -125,12 +190,17 @@ target1.width=90
 target1.x=0
 target1.y=0
 target10.height=50
+<<<<<<< HEAD
 target10.name=Box
 target10.naviview.expanded=false
+=======
+target10.name=Wrong_ant
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
 target10.width=80
+<<<<<<< HEAD
 target10.x=190
 target10.y=130
 target11.height=50
@@ -141,6 +211,10 @@ target11.typeParameters=
 target11.width=80
 target11.x=0
 target11.y=0
+=======
+target10.x=0
+target10.y=0
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=40
@@ -225,13 +299,22 @@ target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
+<<<<<<< HEAD
 target9.name=Label
+=======
+target9.name=Box
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 target9.naviview.expanded=false
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
 target9.width=80
+<<<<<<< HEAD
 target9.x=0
 target9.y=0
+=======
+target9.x=190
+target9.y=130
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
 version=3.0.0
 world.lastInstantiated=Worldy

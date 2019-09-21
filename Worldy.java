@@ -567,6 +567,7 @@ public class Worldy extends World
         wall44.setLocation(554,380);
         wall44.setLocation(558,426);
         wall44.setLocation(563,428);
+<<<<<<< HEAD
         
         
 
@@ -612,5 +613,18 @@ public class Worldy extends World
         question1answera.setLineColor(Color.BLACK);
         addObject(question1answera, 787, 525);
         
+=======
+        Wrong_ant wrong_ant = new Wrong_ant();
+        addObject(wrong_ant,716,379);
+        wrong_ant.setLocation(712,374);
+        Wrong_ant wrong_ant2 = new Wrong_ant();
+        addObject(wrong_ant2,568,380);
+        wrong_ant2.setLocation(559,373);
+        Wrong_ant wrong_ant3 = new Wrong_ant();
+        addObject(wrong_ant3,684,221);
+        wrong_ant3.setLocation(680,215);
+        Ant ant = new Ant();
+        addObject(ant,787,521);
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
     }
 }

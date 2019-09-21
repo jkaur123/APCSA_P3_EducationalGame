@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class P2 extends Player
 {
+<<<<<<< HEAD
     
     Label correctanswer = new Label ("Correct answer!\n", 75);
     Label winningmessage = new Label ("You won!\n", 75);
@@ -16,6 +17,8 @@ public class P2 extends Player
     
     
     
+=======
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
     /**
      * Act - do whatever the P1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -37,6 +40,7 @@ public class P2 extends Player
         Ant = getOneObjectAtOffset(0,0,Ant.class);
         Wrong = getOneObjectAtOffset(0,0,Wrong_ant.class);
         if (Ant != null){
+<<<<<<< HEAD
             correctanswer.setFillColor(Color.RED);
             correctanswer.setLineColor(Color.BLACK);
             getWorld().addObject(correctanswer, 300, 200);
@@ -46,15 +50,20 @@ public class P2 extends Player
             getWorld().addObject(winningmessage, 300, 300);
             
             Greenfoot.delay(30);
+=======
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
             
             Greenfoot.stop();
         }
         if(Wrong != null){
+<<<<<<< HEAD
             wronganswer.setFillColor(Color.RED);
             wronganswer.setLineColor(Color.BLACK);
             getWorld().addObject(wronganswer, 300, 200);
             
             Greenfoot.delay(30);
+=======
+>>>>>>> d7cbdd938f8ba43d2dbfc3e0fb0f8f0d05399bf0
             
             Greenfoot.setWorld(new second_level());
         }
