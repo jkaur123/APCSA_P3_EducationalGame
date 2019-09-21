@@ -22,6 +22,26 @@ public class second_level extends World
      */
     private void prepare()
     {
+        //getWorld().removeObject(wrong_ant);
+        Wrong_ant wrong_ant = new Wrong_ant();
+        addObject(wrong_ant,500,625);
+        Ant ant = new Ant();
+        addObject(ant,350,325);
+        Wrong_ant wrong_ant1 = new Wrong_ant();
+        addObject(wrong_ant1,650,625);
+        Wrong_ant wrong_ant2 = new Wrong_ant();
+        addObject(wrong_ant2,700,425);
+        Ground ground100 = new Ground();
+        addObject(ground100, 700, 445);
+        //wrong_ant.setLocation(712,374);
+        //Wrong_ant wrong_ant2 = new Wrong_ant();
+        //addObject(wrong_ant2,568,380);
+        //wrong_ant2.setLocation(559,373);
+        //Wrong_ant wrong_ant3 = new Wrong_ant();
+        //addObject(wrong_ant3,600,600);
+        //wrong_ant3.setLocation(680,215);
+        //Ant ant = new Ant();
+        //addObject(ant,500,625);
         Wall wall = new Wall();
         addObject(wall, 32, 382);
         Wall wall2 = new Wall();
@@ -51,8 +71,8 @@ public class second_level extends World
         wall11.setLocation(225, 376);
         wall5.setLocation(275, 376);
         wall10.setLocation(325, 376);
-        P1 p1 = new P1();
-        addObject(p1, 133, 321);
+        P2 p2 = new P2();
+        addObject(p2, 133, 321);
         wall6.setLocation(375, 376);
         wall9.setLocation(425, 376);
         wall7.setLocation(475, 376);
@@ -92,7 +112,7 @@ public class second_level extends World
         ground2.setLocation(205, 319);
         ground3.setLocation(175, 331);
         ground4.setLocation(145, 343);
-        p1.setLocation(80, 319);
+        p2.setLocation(80, 319);
         Wall wall19 = new Wall();
         addObject(wall19, 33, 332);
         wall19.setLocation(25, 326);
@@ -544,7 +564,7 @@ public class second_level extends World
         ground6.setLocation(775, 627);
         ground9.setLocation(815, 642);
         ground8.setLocation(805, 627);
-        p1.setLocation(100, 621);
+        p2.setLocation(100, 621);
         wall84.setLocation(925, 625);
         wall84.setLocation(441, 456);
         wall84.setLocation(355, 375);

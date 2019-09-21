@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class P1 extends Player
+public class P2 extends Player
 {
     /**
      * Act - do whatever the P1 wants to do. This method is called whenever
@@ -30,15 +30,15 @@ public class P1 extends Player
         Wrong = getOneObjectAtOffset(0,0,Wrong_ant.class);
         if (Ant != null){
             
-            Greenfoot.setWorld(new second_level());
+            Greenfoot.stop();
         }
-        
         if(Wrong != null){
             
-            Greenfoot.setWorld(new Worldy());
+            Greenfoot.setWorld(new second_level());
         }
     }
 }
+
 
 
 
